@@ -30,6 +30,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Bootstrap is a SASS gem that is extremely user friendly and modifiable
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
+
+# Devise is a gem that allows users to sign-up/in/out
+gem 'devise', '~> 3.5', '>= 3.5.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
