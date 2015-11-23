@@ -39,6 +39,9 @@ gem 'devise', '~> 3.5', '>= 3.5.2'
 # Paperclip is an image handling gem that allows us to add our images to our database
 gem 'paperclip', '~> 4.3', '>= 4.3.2'
 
+# AWS-SDK is a gem that handles AmazonS3 services
+gem 'aws-sdk', '~> 2.2', '>= 2.2.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
