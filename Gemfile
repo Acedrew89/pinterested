@@ -42,6 +42,10 @@ gem 'paperclip', '~> 4.3', '>= 4.3.2'
 # AWS-SDK is a gem that handles AmazonS3 services
 gem 'aws-sdk', '~> 2.2', '>= 2.2.1'
 
+# Masonry is a gem that will help us handle the pins' animations for screen resizing and ordering them properly
+gem 'jquery-turbolinks'
+gem 'masonry-rails', '~> 0.2.4'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
